@@ -73,7 +73,7 @@ jobs:
           #anew
           sudo eget "https://bin.ajam.dev/x86_64_Linux/anew" --to "/usr/local/bin/anew"
           #anew-rs
-          sudo eget "https://bin.ajam.dev/x86_64_Linux/anew-rs" --to "/usr/local/bin/anew-rs" ; anew -h
+          sudo eget "https://bin.ajam.dev/x86_64_Linux/anew-rs" --to "/usr/local/bin/anew-rs" ; anew-rs -h
           #gowitness
           sudo eget "https://bin.ajam.dev/x86_64_Linux/gowitness" --to "/usr/local/bin/gowitness" ; gowitness -h
           #httpx
